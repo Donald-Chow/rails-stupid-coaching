@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>THIS IS THE ANSWER PAGE</h1>
+  <div class="message-box" >
+    <h2><%= @question %></h2>
+    <h3> -- You</h3>
+  </div>
+  <div class="message-box coach" >
+    <h2><%= @answer %></h2>
+    <h3> -- Your Coach</h3>
+  </div>
+  <%= link_to "Ask a question", ask_path, class: "btn btn-secondary"%>
+</div>
